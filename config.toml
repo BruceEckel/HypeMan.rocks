@@ -1,0 +1,4 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Arvin is The Hypeman"
+theme = "ananke"
