@@ -1,4 +1,24 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Arvin is The Hypeman"
-theme = "hugo-ananke"
+theme = "hello"
+
+[params]
+  subtitle = "Arvin is The Hypeman"
+
+[params.logo]
+  logoText = "Arvin is The Hypeman"
+#   or
+#
+#   path = "/img/your-example-logo.svg"
+#   alt = "Your example logo alt text"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about"
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact"
